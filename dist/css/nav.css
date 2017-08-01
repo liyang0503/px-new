@@ -1,0 +1,285 @@
+*,
+p,
+ul {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  font: 14px/1.8 "微软雅黑";
+  color: #282828;
+  position: relative;
+  background: #fafafa;
+}
+@media screen and (max-width: 767px) {
+  body {
+    font: 1.2rem/1.6 "微软雅黑";
+  }
+}
+body::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background-color: #ddd;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #008aff;
+  border-radius: 2px;
+}
+:focus {
+  outline: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #0056b7;
+}
+table {
+  border-spacing: 0;
+}
+label {
+  font-weight: normal;
+  margin: 0;
+}
+header,
+nav,
+section,
+footer {
+  display: block;
+  width: 100%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.tab-sec {
+  display: none;
+}
+.tab-sec.active {
+  display: block;
+}
+.tab1-sec {
+  display: none;
+}
+.tab1-sec.active {
+  display: block;
+}
+.tab2-sec {
+  display: none;
+}
+.tab2-sec.active {
+  display: block;
+}
+.tab3-sec {
+  display: none;
+}
+.tab3-sec.active {
+  display: block;
+}
+.tab4-sec {
+  display: none;
+}
+.tab4-sec.active {
+  display: block;
+}
+.tab5-sec {
+  display: none;
+}
+.tab5-sec.active {
+  display: block;
+}
+.tab6-sec {
+  display: none;
+}
+.tab6-sec.active {
+  display: block;
+}
+.tab7-sec {
+  display: none;
+}
+.tab7-sec.active {
+  display: block;
+}
+.tab8-sec {
+  display: none;
+}
+.tab8-sec.active {
+  display: block;
+}
+.tab9-sec {
+  display: none;
+}
+.tab9-sec.active {
+  display: block;
+}
+@media screen and (min-width: 320px) {
+  header div.head-top {
+    background: #e6e6e6;
+    padding: 4px 0;
+    color: #999;
+  }
+  header div.head-top ul li {
+    margin-left: 20px;
+  }
+  header div.head-top ul li a {
+    display: block;
+    color: #999;
+  }
+  header div.head-top ul li a:hover {
+    color: #0056b7;
+  }
+  header div.head-fot {
+    height: 180px;
+    background-image: url("../images/pxnew-banner.jpg");
+    background-size: cover;
+    padding-top: 45px;
+  }
+  header div.head-fot div.container div.row div.search {
+    padding-top: 15px;
+  }
+  header div.head-fot div.container div.row div.search div.dtop {
+    width: 300px;
+    height: 40px;
+    border: 2px solid #0056b7;
+    background: #fff;
+    position: relative;
+    margin-bottom: 5px;
+  }
+  header div.head-fot div.container div.row div.search div.dtop input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    padding: 2px 55px 2px 10px;
+  }
+  header div.head-fot div.container div.row div.search div.dtop button {
+    position: absolute;
+    width: 45px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border: none;
+    background: none;
+    color: #0056b7;
+    font-size: 28px;
+  }
+  header div.head-fot div.container div.row div.search div.dfot {
+    font-weight: bold;
+  }
+  nav {
+    height: 50px;
+    background: #def8ff;
+  }
+  nav div.container > ul > li {
+    width: 11.1%;
+    line-height: 50px;
+    text-align: center;
+  }
+  nav div.container > ul > li a {
+    display: block;
+    color: #0056b7;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  nav div.container > ul > li.active a,
+  nav div.container > ul > li:hover a {
+    background: #0056b7;
+    color: #fff;
+  }
+  ul.new-list li {
+    line-height: 30px;
+  }
+  ul.new-list li a {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  ul.new-list li a i.ii {
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 3px;
+    background: #0056b7;
+    border-radius: 50%;
+  }
+  ul.time li a {
+    position: relative;
+    padding-right: 76px;
+  }
+  ul.time li a span {
+    font-size: 12px;
+    color: #999;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.time li a span.s1 {
+    position: relative;
+    color: #333;
+    font-size: 14px;
+    padding-right: 3px;
+  }
+  ul.time li a span.s2 {
+    background: #ff7c86;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  ul.time li a span.s2.top {
+    background: #e60012;
+  }
+  ul.time li a img.img2 {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 12px;
+  }
+  ul.new-list2 li a {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #cc3333;
+    font-weight: bold;
+    padding: 3px 0;
+  }
+  ul.new-list2 li a:hover {
+    color: #0056b7;
+  }
+  ul.new-list2 li p {
+    position: relative;
+    padding-right: 80px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  ul.new-list2 li p span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #aaa;
+  }
+}

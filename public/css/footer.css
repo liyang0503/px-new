@@ -1,0 +1,31 @@
+@media screen and (min-width: 320px) {
+  footer {
+    background: #0056b7;
+  }
+  footer div.container {
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+  }
+  footer div.container ul {
+    display: inline-block;
+  }
+  footer div.container ul li {
+    border-right: 1px solid #fff;
+  }
+  footer div.container ul li a {
+    display: block;
+    padding: 0 10px;
+    line-height: 100%;
+    color: #fff;
+  }
+  footer div.container ul li:last-child {
+    border: none;
+  }
+  footer div.container p {
+    line-height: 110%;
+  }
+  footer div.container p a {
+    color: #fff;
+  }
+}

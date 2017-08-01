@@ -1,0 +1,57 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "first"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-core": "^6.0.1",
+    "browser-sync": "^2.18.12",
+    "core-util-is": "^1.0.2",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-bower": "^0.0.13",
+    "gulp-cache": "^0.4.6",
+    "gulp-connect": "^5.0.0",
+    "gulp-content-includer": "^0.0.7",
+    "gulp-csslint": "^1.0.0",
+    "gulp-csso": "^3.0.0",
+    "gulp-filter": "^5.0.0",
+    "gulp-flatten": "^0.3.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-postcss": "^7.0.0",
+    "gulp-qunit": "^1.5.0",
+    "gulp-size": "^2.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-usemin": "^0.3.28",
+    "gulp-usemin2": "^0.2.4",
+    "gulp-useref": "^3.1.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch-path": "^0.1.0",
+    "inherits": "^2.0.3",
+    "isarray": "^2.0.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "main-bower-files": "^2.13.1",
+    "postcss": "^6.0.1",
+    "stream-combiner2": "^1.1.1",
+    "wrapper": "^0.1.0"
+  }
+}

@@ -1,0 +1,332 @@
+*, p, ul {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+@bj: #0056b7;
+@hui: #e6e6e6;
+
+html {
+   font-size: 62.5%;
+   height: 100%;
+}
+
+body {
+   font: 14px/1.8 "微软雅黑";
+   color: #282828;
+   position: relative;
+   background: #fafafa;
+   @media screen and (max-width: 767px) {
+      font: 1.2rem/1.6 "微软雅黑";
+   }
+   &::-webkit-scrollbar {
+      height: 5px;
+      width: 5px;
+      background-color: #ddd;
+   }
+   &::-webkit-scrollbar-thumb {
+      background-color: @bj*1.6;
+      border-radius: 2px;
+   }
+}
+
+:focus {
+   outline: none;
+}
+
+ul, ol {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #333;
+}
+
+a:hover, a:focus {
+   text-decoration: none;
+   color: @bj;
+}
+
+table {
+   border-spacing: 0;
+}
+
+label {
+   font-weight: normal;
+   margin: 0;
+}
+
+header, nav, section, footer {
+   display: block;
+   width: 100%;
+}
+
+.fl {
+   float: left;
+}
+
+.fr {
+   float: right;
+}
+
+.tab-sec {
+   display: none;
+   &.active {
+      display: block;
+   }
+}
+
+.tab1-sec {
+   display: none;
+   &.active {
+      display: block;
+   }
+}
+
+.tab2-sec {
+   display: none;
+   &.active {
+      display: block;
+   }
+}
+
+.tab3-sec {
+   display: none;
+   &.active {
+      display: block;
+   }
+}
+
+.tab4-sec {
+   display: none;
+   &.active {
+      display: block;
+   }
+}
+
+.tab5-sec {
+   display: none;
+   &.active {
+      display: block;
+   }
+}
+
+.tab6-sec {
+   display: none;
+   &.active {
+      display: block;
+   }
+}
+
+.tab7-sec {
+   display: none;
+   &.active {
+      display: block;
+   }
+}
+
+.tab8-sec {
+   display: none;
+   &.active {
+      display: block;
+   }
+}
+
+.tab9-sec {
+   display: none;
+   &.active {
+      display: block;
+   }
+}
+
+@media screen and (min-width: 320px) {
+   //   头部
+   header {
+      div.head-top {
+         background: @hui;
+         padding: 4px 0;
+         color: #999;
+         ul {
+            li {
+               margin-left: 20px;
+               a {
+                  display: block;
+                  color: #999;
+                  &:hover {
+                     color: @bj;
+                  }
+               }
+            }
+         }
+      }
+      div.head-fot {
+         height: 180px;
+         background-image: url("../images/pxnew-banner.jpg");
+         background-size: cover;
+         padding-top: 45px;
+         div.container {
+            div.row {
+               div.search {
+                  padding-top: 15px;
+                  div.dtop {
+                     width: 300px;
+                     height: 40px;
+                     border: 2px solid @bj;
+                     background: #fff;
+                     position: relative;
+                     margin-bottom: 5px;
+                     input {
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                        background: transparent;
+                        padding: 2px 55px 2px 10px;
+                     }
+                     button {
+                        position: absolute;
+                        width: 45px;
+                        height: 100%;
+                        top: 0;
+                        right: 0;
+                        border: none;
+                        background: none;
+                        color: @bj;
+                        font-size: 28px;
+                     }
+                  }
+                  div.dfot {
+                     font-weight: bold;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //   导航
+   nav {
+      height: 50px;
+      background: #def8ff;
+      div.container {
+         > ul {
+            > li {
+               width: 11.1%;
+               line-height: 50px;
+               text-align: center;
+               a {
+                  display: block;
+                  color: @bj;
+                  font-size: 16px;
+                  font-weight: bold;
+                  letter-spacing: 1px;
+               }
+               &.active, &:hover {
+                  a {
+                     background: @bj;
+                     color: #fff;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //   列表
+   ul.new-list {
+      li {
+         line-height: 30px;
+         a {
+            display: block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            i.ii {
+               display: inline-block;
+               vertical-align: middle;
+               width: 3px;
+               height: 3px;
+               background: @bj;
+               border-radius: 50%;
+            }
+         }
+      }
+   }
+
+   ul.time {
+      li {
+         a {
+            position: relative;
+            padding-right: 76px;
+            span {
+               font-size: 12px;
+               color: #999;
+               position: absolute;
+               right: 0;
+               top: 0;
+            }
+            span.s1 {
+               position: relative;
+               color: #333;
+               font-size: 14px;
+               padding-right: 3px;
+            }
+            span.s2 {
+               background: #ff7c86;
+               border-radius: 50%;
+               color: #fff;
+               font-size: 12px;
+               font-style: italic;
+               display: inline-block;
+               width: 18px;
+               height: 18px;
+               line-height: 18px;
+               text-align: center;
+               margin-right: 5px;
+               font-weight: bold;
+               &.top {
+                  background: #e60012;
+               }
+            }
+            img.img2 {
+               position: absolute;
+               right: 0;
+               top: 10px;
+               width: 12px;
+            }
+         }
+      }
+   }
+
+   //   列表2
+   ul.new-list2 {
+      li {
+         a {
+            display: block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            color: #cc3333;
+            font-weight: bold;
+            padding: 3px 0;
+            &:hover {
+               color: @bj;
+            }
+         }
+         p {
+            position: relative;
+            padding-right: 80px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            span {
+               position: absolute;
+               right: 0;
+               top: 0;
+               color: #aaa;
+            }
+         }
+      }
+   }
+}

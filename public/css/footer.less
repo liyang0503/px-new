@@ -1,0 +1,33 @@
+@import (reference) "nav.less";
+
+@media screen and (min-width: 320px) {
+   footer {
+      background: @bj;
+      div.container {
+         text-align: center;
+         padding: 15px 0;
+         color: #fff;
+         ul {
+            display: inline-block;
+            li {
+               border-right: 1px solid #fff;
+               a {
+                  display: block;
+                  padding: 0 10px;
+                  line-height: 100%;
+                  color: #fff;
+               }
+               &:last-child {
+                  border: none;
+               }
+            }
+         }
+         p {
+            line-height: 110%;
+            a {
+               color: #fff;
+            }
+         }
+      }
+   }
+}
