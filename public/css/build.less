@@ -1,0 +1,90 @@
+@import (reference) "nav.less";
+
+@media screen and  (min-width: 320px) {
+   section.info {
+      div.container {
+         div.build-sec {
+            background: #fff;
+            padding: 50px 30px;
+            ul {
+               background-repeat: no-repeat !important;
+               padding: 0 20px;
+               li {
+                  width: 12.5%;
+                  padding-bottom: 35px;
+                  a {
+                     display: block;
+                     width: 92px;
+                     height: 101px;
+                     margin: auto;
+                     background-image: url("https://img.sandbox.qixinyun.com/pxiang-shu.png");
+                     background-repeat: no-repeat;
+                     background-position: center;
+                     text-align: center;
+                     position: relative;
+                     span {
+                        font-weight: bold;
+                        color: #333;
+                        width: 20px;
+                        line-height: 14px;
+                        position: absolute;
+                        top: 48%;
+                        left: 50%;
+                     }
+                  }
+               }
+            }
+         }
+         div.build-book-sec {
+            background: #fff;
+            padding: 30px 60px;
+            ul.new-list {
+               li {
+                  border-bottom: 1px dashed #ddd;
+                  padding: 5px 0;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+   section.info {
+      div.container {
+         div.build-sec {
+            ul {
+               li {
+                  width: 20%;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 767px) {
+   section.info {
+      div.container {
+         div.build-sec {
+            padding: 25px;
+            ul {
+               padding: 0;
+               li {
+                  width: 33.33%;
+               }
+            }
+         }
+         div.build-book-sec {
+            padding: 10px;
+            ul.new-list {
+               li {
+                  a {
+                     padding-right: 125px;
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -28,6 +28,15 @@ $(function () {
    tab('.tab6-li', '.tab6-sec');
    tab('.tab7-li', '.tab7-sec');
    tab('.tab8-li', '.tab8-sec');
+   tab('.tab9-li', '.tab8-sec');
+
+   //   右侧切换部分的宽度（手机）
+   if (w < 768) {
+      $('.tit-2').each(function () {
+         var rt_top = this;
+         $(rt_top).find('ul').css({width: $(rt_top).outerWidth() - $(rt_top).children('a').outerWidth() - 8});
+      });
+   }
 });
 
 jQuery.fn.size = function () {

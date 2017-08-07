@@ -11,13 +11,13 @@ html {
 }
 body {
   font: 14px/1.8 "微软雅黑";
-  color: #282828;
+  color: #333;
   position: relative;
   background: #fafafa;
 }
 @media screen and (max-width: 767px) {
   body {
-    font: 1.2rem/1.6 "微软雅黑";
+    font: 1.4rem/1.6 "微软雅黑";
   }
 }
 body::-webkit-scrollbar {
@@ -125,6 +125,11 @@ footer {
 .tab9-sec.active {
   display: block;
 }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 980px;
+  }
+}
 @media screen and (min-width: 320px) {
   header div.head-top {
     background: #e6e6e6;
@@ -216,6 +221,7 @@ footer {
     height: 3px;
     background: #0056b7;
     border-radius: 50%;
+    margin-right: 5px;
   }
   ul.time li a {
     position: relative;
@@ -281,5 +287,98 @@ footer {
     right: 0;
     top: 0;
     color: #aaa;
+  }
+  section.info {
+    padding: 15px 0;
+  }
+  section.info div.container div.info-top {
+    margin-bottom: 15px;
+  }
+  section.info div.container div.info-top > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  section.info div.container div.info-top span.s1 {
+    color: #999;
+    font-size: 16px;
+  }
+  section.info div.container div.build-tit {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  div.page {
+    margin-bottom: 0;
+    margin-top: 25px;
+    text-align: center;
+    height: 35px;
+  }
+  div.page .pagination > li > a,
+  div.page .pagination > li > span {
+    border-color: #0056b7;
+    color: #0056b7;
+  }
+  div.page .pagination > li > a:focus,
+  div.page .pagination > li > a:hover,
+  div.page .pagination > li > span:focus,
+  div.page .pagination > li > span:hover {
+    background-color: #0056b7;
+    border-color: #0056b7;
+    color: #fff;
+  }
+  div.page .pagination > .active > a,
+  div.page .pagination > .active > a:focus,
+  div.page .pagination > .active > a:hover,
+  div.page .pagination > .active > span,
+  div.page .pagination > .active > span:focus,
+  div.page .pagination > .active > span:hover {
+    background-color: #0056b7;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 767px) {
+  header {
+    padding: 5px 0;
+  }
+  header div.container {
+    position: relative;
+  }
+  header div.container a.logo img {
+    width: 120px;
+  }
+  header div.container ul {
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+  nav {
+    background: #eee;
+    height: 40px;
+  }
+  nav div.container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  nav div.container > ul {
+    height: 40px;
+    position: relative;
+    width: 882px;
+  }
+  nav div.container > ul > li {
+    line-height: 40px;
+  }
+  nav div.container > ul > li a {
+    padding: 0 12px;
+    display: block;
+    text-align: center;
+    color: #0056b7;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  nav div.container > ul > li.active {
+    background: #0056b7;
+  }
+  nav div.container > ul > li.active a {
+    color: #fff;
   }
 }

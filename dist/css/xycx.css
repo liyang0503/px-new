@@ -1,0 +1,76 @@
+@media screen and (min-width: 320px) {
+  section.info div.container div.xycx div.xycx-sec {
+    margin-top: 20px;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-le div.d1 {
+    margin-bottom: 10px;
+    line-height: 34px;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-le div.d1 > span {
+    width: 100px;
+    text-align: right;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-le div.d1 > img {
+    border: 1px solid #ddd;
+    margin-left: 5px;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-le div.d1 .in {
+    border: 1px solid #ddd;
+    height: 34px;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-le div.d1 .in.in1 {
+    width: 360px;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-le div.d1 > div label {
+    margin-right: 25px;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-le div.d1 > div label input {
+    position: relative;
+    top: 2px;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-rt {
+    width: 445px;
+    border: 3px solid #e8e8e8;
+    background: #fff;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-rt div {
+    border-top: 5px solid #0056b7;
+    padding: 8px 30px 20px;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-rt div span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0056b7;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.info div.container div.xycx div.xycx-sec div.xycx-le {
+    float: none;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-rt {
+    float: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  section.info div.container div.xycx div.xycx-sec div.xycx-le div.d1 > span {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-le div.d1 .in.in1 {
+    width: 100%;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-rt {
+    width: 100%;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-rt div {
+    padding: 8px 10px 20px;
+  }
+  section.info div.container div.xycx div.xycx-sec div.xycx-rt div span {
+    font-size: 16px;
+  }
+}

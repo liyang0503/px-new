@@ -38,6 +38,29 @@
     font-weight: bold;
     padding: 6px 15px;
   }
+  section div.tit-2 > a {
+    width: 126px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background: #59aae0;
+  }
+  section div.tit-2 ul {
+    border-top: 4px solid #59aae0;
+    width: 258px;
+  }
+  section div.tit-2 ul li {
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  section div.tit-2 ul li:hover,
+  section div.tit-2 ul li.active {
+    color: #59aae0;
+  }
   section ul.tit-2 {
     margin-bottom: 10px;
   }
@@ -254,33 +277,348 @@
   section div.container div.index-top div.int-le div.int-le-c {
     margin-bottom: 10px;
   }
-  section div.container div.index-top div.int-le div.int-le-c > div {
-    width: 390px;
+  section div.container div.index-top div.int-le div.int-le-c > div div.bj {
     height: 345px;
     overflow: hidden;
     background: #fff;
   }
-  section div.container div.index-top div.int-le div.int-le-c > div div.int-cle-sec {
+  section div.container div.index-top div.int-le div.int-le-c > div div.bj div.int-cle-sec {
     padding: 12px 15px;
   }
-  section div.container div.index-top div.int-le div.int-le-c > div div.int-crt-sec {
+  section div.container div.index-top div.int-le div.int-le-c > div div.bj div.int-crt-sec {
     padding: 13px 15px;
   }
-  section div.container div.index-top div.int-le div.int-le-c > div div.int-fle-sec {
+  section div.container div.index-top div.int-le div.int-le-c > div div.bj div.int-fle-sec {
     padding: 12px 15px;
   }
-  section div.container div.index-top div.int-le div.int-le-c > div div.int-fle-sec ul.new-list {
+  section div.container div.index-top div.int-le div.int-le-c > div div.bj div.int-fle-sec ul.new-list {
     padding: 0 12px;
   }
-  section div.container div.index-top div.int-le div.int-le-c > div div.int-frt-sec {
+  section div.container div.index-top div.int-le div.int-le-c > div div.bj div.int-frt-sec {
     padding: 12px 25px;
   }
-  section div.container div.index-top div.int-le div.int-le-c > div div.int-frt-sec > p {
+  section div.container div.index-top div.int-le div.int-le-c > div div.bj div.int-frt-sec > p {
     font-weight: bold;
     font-size: 16px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     margin: 6px 0;
+  }
+  section div.container div.index-top div.int-le div.int-le-c > div.int-cle,
+  section div.container div.index-top div.int-le div.int-le-c > div.int-fle {
+    padding-right: 7px;
+  }
+  section div.container div.index-top div.int-le div.int-le-c > div.int-crt,
+  section div.container div.index-top div.int-le div.int-le-c > div.int-frt {
+    padding-left: 7px;
+  }
+  section div.container div.index-top div.int-rt {
+    padding-left: 8px;
+    width: 400px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-dt {
+    background: #fff;
+    height: 340px;
+    overflow: hidden;
+    margin-bottom: 12px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-dt div.int-rtd-sec {
+    padding: 12px 15px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu {
+    height: 345px;
+    background: #fff;
+    margin-bottom: 10px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec {
+    padding: 15px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec p.tit {
+    text-align: center;
+    color: #0056b7;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 {
+    padding: 0 20px;
+    margin-bottom: 25px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 span {
+    color: #232758;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 input {
+    background: #f8f8f8;
+    border: 1px solid #d4d4d4;
+    padding: 2px 10px;
+    height: 34px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 input.in1 {
+    width: 252px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 input.in2 {
+    width: 150px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 img {
+    height: 34px;
+    border: 1px solid #d4d4d4;
+    margin-right: 16px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d2 {
+    padding-left: 74px;
+    margin-bottom: 30px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d2 .but {
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    background: #0056b7;
+    color: #fff;
+    border: none;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d2 a {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 30px;
+    margin-left: 15px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec p.p2 {
+    text-align: center;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-gjdw {
+    height: 345px;
+    background: #fff;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-gjdw div.tit-2 > a {
+    background: #e84b42;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-gjdw div.tit-2 ul {
+    border-top: 4px solid #e84b42;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-gjdw div.int-rtg-sec {
+    padding: 15px;
+  }
+  section div.container div.index-fot div.fot-ul2 {
+    margin-bottom: 15px;
+    width: 935px;
+  }
+  section div.container div.index-fot div.fot-ul2 ul.tit li {
+    font-size: 16px;
+    padding: 5px 30px;
+    margin-right: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  section div.container div.index-fot div.fot-ul2 ul.tit li:hover,
+  section div.container div.index-fot div.fot-ul2 ul.tit li.active {
+    background: #0056b7;
+    color: #fff;
+  }
+  section div.container div.index-fot div.fot-ul2 > div {
+    padding: 15px;
+    height: 210px;
+    border: 1px solid #0056b7;
+  }
+  section div.container div.index-fot div.fot-ul2 > div ul li {
+    width: 20%;
+  }
+  section div.container div.index-fot div.fot-ul2 > div ul li a {
+    display: block;
+    padding: 2px 5px;
+  }
+  section div.container div.index-fot div.fot-img {
+    width: 225px;
+    padding-top: 33px;
+  }
+  section div.container div.index-fot div.fot-img div a {
+    display: block;
+    padding: 6px 4px;
+  }
+  section div.container div.index-fot div.fot-img div a img {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  section div.container div.index-top div.int-le {
+    padding-right: 6px;
+    width: 580px;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec {
+    margin-bottom: 10px;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec div.banner-sec-le {
+    display: none;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec div.banner-sec-rt {
+    width: 100%;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec div.banner-sec-rt div.item a img {
+    width: 100%;
+    height: 338px;
+  }
+  section div.container div.index-fot div.fot-ul2 {
+    width: 735px;
+  }
+  section div.container div.index-fot div.fot-ul2 > div ul li {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section div.tit-2 > a {
+    width: 100px;
+  }
+  section div.container div.index-top div.int-le {
+    padding-right: 0;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec {
+    margin-bottom: 10px;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec div.banner-sec-le {
+    display: none;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec div.banner-sec-rt {
+    width: 100%;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec div.banner-sec-rt div.item a img {
+    width: 100%;
+    height: 338px;
+  }
+  section div.container div.index-top div.int-rt {
+    padding-left: 0;
+    width: 100%;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu {
+    height: 340px;
+    margin-bottom: 12px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 input.in1 {
+    width: 225px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 input.in2 {
+    width: 115px;
+  }
+  section div.container div.index-fot div.fot-ul2 {
+    width: 100%;
+  }
+  section div.container div.index-fot div.fot-ul2 > div ul li {
+    width: 25%;
+  }
+  section div.container div.index-fot div.fot-img {
+    width: 100%;
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  section {
+    padding-top: 0;
+  }
+  section div.tit-2 > a {
+    width: 80px;
+    font-size: 14px;
+  }
+  section div.container {
+    width: 100%;
+  }
+  section div.container div.index-top div.int-le {
+    padding-right: 0;
+    width: 100%;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec {
+    margin-bottom: 10px;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec div.banner-sec-rt {
+    width: 100%;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec div.banner-sec-rt div.item {
+    padding-top: 0;
+  }
+  section div.container div.index-top div.int-le div.index-banner-sec div.banner-sec-rt div.item a img {
+    width: 100%;
+    height: initial;
+  }
+  section div.container div.index-top div.int-le div.int-le-c {
+    margin-bottom: 0;
+  }
+  section div.container div.index-top div.int-le div.int-le-c > div {
+    margin-bottom: 10px;
+  }
+  section div.container div.index-top div.int-le div.int-le-c > div div.bj {
+    height: auto;
+  }
+  section div.container div.index-top div.int-le div.int-le-c > div.int-cle,
+  section div.container div.index-top div.int-le div.int-le-c > div.int-fle {
+    padding-right: 0;
+  }
+  section div.container div.index-top div.int-le div.int-le-c > div.int-crt,
+  section div.container div.index-top div.int-le div.int-le-c > div.int-frt {
+    padding-left: 0;
+  }
+  section div.container div.index-top div.int-rt {
+    padding-left: 0;
+    width: 100%;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec {
+    padding: 15px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 {
+    padding: 0 8px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 input.in1 {
+    width: 75%;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 input.in2 {
+    width: 35%;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d1 img {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-shu div.int-rts-sec div.d2 {
+    padding-left: 62px;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-gjdw {
+    height: 345px;
+    background: #fff;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-gjdw div.tit-2 > a {
+    background: #e84b42;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-gjdw div.tit-2 ul {
+    border-top: 4px solid #e84b42;
+  }
+  section div.container div.index-top div.int-rt div.int-rt-gjdw div.int-rtg-sec {
+    padding: 15px;
+  }
+  section div.container div.index-fot {
+    margin-top: 10px;
+  }
+  section div.container div.index-fot div.fot-ul2 {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  section div.container div.index-fot div.fot-ul2 ul.tit li {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-right: 2px;
+  }
+  section div.container div.index-fot div.fot-ul2 > div {
+    height: auto;
+    padding: 5px;
+  }
+  section div.container div.index-fot div.fot-ul2 > div ul li {
+    width: 50%;
+  }
+  section div.container div.index-fot div.fot-img {
+    width: 100%;
+    padding-top: 0;
   }
 }
